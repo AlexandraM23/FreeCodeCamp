@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Pomodoro Timer</title>
+    <meta name="description" content="Pomodoro Timer">
+    <meta name="author" content="Ali">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="Pomodoro.css">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="Pomodoro.js"></script>
+
+    <div class="container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="6" class="text-center">Pomodoro Timer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3" id="break-box" class="text-center">Break Length</td>
+                    <td colspan="3" id="session-box" class="text-center">Session Length</td>
+                </tr>
+                <tr>
+                    <td class="text-center opKeyBreak" id="-">-</td>
+                    <td class="text-center" id="break-length"></td>
+                    <td class="text-center opKeyBreak" id="+">+</td>
+                    <td class="text-center opKeySession" id="-">-</td>
+                    <td class="text-center" id="session-length"></td>
+                    <td class="text-center opKeySession" id="+">+</td>
+                </tr>
+                <tr>
+                    <td colspan="6" class="text-center" id="currentStatus">Session</td>
+                </tr>
+                <tr>
+                    <td colspan="3" type="button" class="button btn btn-lg" id="startButton" disabled>Start</td>
+                    <td colspan="3" type="button" class="button btn btn-lg" id="stopButton">Stop</td>
+                </tr>
+                <tr>
+                    <td colspan="6" id="elapsing" class="text-center"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

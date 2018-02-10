@@ -1,0 +1,88 @@
+body{
+    background-color: #1f6ee4;
+    transition: all, .5s;
+}
+
+#title{
+    transition: all, .5s;
+    font: outline;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+
+#tweet-button {
+    transition: all .5s;
+    display: block;
+    float: right;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+    
+}
+
+
+#tweet-button:hover {
+    transform: scale(1.2);
+    text-decoration-line: none;
+}
+
+button{
+    font-family: "Trebuchet MS";
+    display: flex;
+    margin:auto;
+    border-width: 0;
+    border-radius: 2rem;
+    transition: all, 0.5s;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    outline: none !important;
+}
+
+button:hover{
+    transform: scale(1.05);
+   
+}
+
+button:focus{
+    outline: none !important;
+    
+}
+
+btn:active{
+    outline: none !important;
+    
+}
+
+#author{
+    font-family: "Trebuchet MS";
+}
+
+.card-header{
+ display: flex;
+ border-bottom-color: white;
+
+}
+.card-header{
+    background-color: transparent;
+}
+
+.quote-box{
+    font-family: "Trebuchet MS";
+    transition: all, 2.5s;
+    color: #f88975;
+    
+    display: flex;
+    margin: auto;
+    width: 40%;
+    background-color: #f88975;
+    border-style: solid;
+    border-width: 0.01rem;
+    border-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+ 

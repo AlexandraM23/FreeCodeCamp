@@ -1,0 +1,106 @@
+#navbar {
+    padding: 0;
+    color: #ffffff;
+    background: #696969;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navigation {
+    padding-left: 140px;
+    padding-right: 140px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brand {
+    color: #9076ab;
+}
+
+.menu {
+    color: #e5e5e5;
+    text-transform: uppercase;
+}
+
+.about-box {
+    text-align: center;
+    margin: auto;
+    padding: 100px 30px 30px 30px;
+    Background: #a6a6a6;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #484c52;
+    border-radius: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio-box {
+    text-align: center;
+    width: relative;
+    margin: auto;
+    padding: 100px 50px 30px 50px;
+    Background: #737373;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #484c52;
+    border-radius: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin: 30px 20px 10px;
+    max-width: 80%;
+    height: auto;
+    width: 200px;
+}
+
+hr.star-bright {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+.contact-box {
+    text-align: center;
+    width: relative;
+    margin: auto;
+    padding: 100px 50px 30px 50px;
+    Background: #a6a6a6;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #484c52;
+    border-radius: 0.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#portfolio .grid {
+    margin: auto;
+    padding: 0;
+    max-width: 90%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#portfolio .grid li {
+    margin: 30px;
+    max-width: 600px;
+}
+
+#portfolio img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    color: black;
+}

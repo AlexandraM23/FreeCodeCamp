@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Simon Game</title>
+    <meta name="description" content="Simon Game">
+    <meta name="author" content="Ali">
+    <link rel="stylesheet" href="simon.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="simon.js"></script>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                Simon Game
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <input type="checkbox" id="checkToTurnOn">
+                <span>Check to turn on</span>
+
+            </div>
+            <div class="col">
+                <div id = "counterMain">
+                Counter:
+                <span id="counter">00</span>
+                </div>
+                <div id = "win">
+                    YOU WON!
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <input type="checkbox" id="selectStrict">
+                <span>Strict Mode</span>
+            </div>
+            <div class="col">
+                <button type="button" class="btn start" id="startBtn" disabled>
+                    Start
+                </button>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-lg colorBtns" id="green" disabled>
+                </button>
+                <button type="button" class="btn btn-lg colorBtns" id="red" disabled>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-lg colorBtns" id="yellow" disabled>
+                </button>
+                <button type="button" class="btn btn-lg colorBtns" id="blue" disabled>
+                </button>
+            </div>
+        </div>
+</body>

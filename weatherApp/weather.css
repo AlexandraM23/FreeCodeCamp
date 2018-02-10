@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+  }
+  
+  .temp{
+    cursor:pointer;
+    color:#006dcc;
+  }
+  .temp:hover{
+    color:#005096;
+  }
